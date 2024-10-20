@@ -32,7 +32,7 @@ public class BallMovement : MonoBehaviour
         yield return new WaitForSeconds(1); // Небольшая задержка перед стартом
 
         // Генерация случайного угла для начальной траектории мяча
-        float randomAngle = Random.Range(-30f, 30f); // Случайный угол в диапазоне [-30, 30]
+        float randomAngle = Random.Range(-45f, 45f); // Случайный угол в диапазоне [-45, 45]
 
         // Определение направления движения в зависимости от того, кто начинает
         Vector2 direction;
